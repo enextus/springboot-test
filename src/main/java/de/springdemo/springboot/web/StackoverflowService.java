@@ -3,6 +3,7 @@ package de.springdemo.springboot.web;
 import java.util.List;
 
 import de.springdemo.springboot.model.StackoverflowWebsite;
+import de.springdemo.springboot.service.StackoverflowService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

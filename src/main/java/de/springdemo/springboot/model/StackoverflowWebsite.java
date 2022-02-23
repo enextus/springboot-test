@@ -27,7 +27,7 @@ public class StackoverflowWebsite {
 		return description;
 	}
 
-	StackoverflowWebsite(String id, String website, String iconImageUrl, String title, String description) {
+	public StackoverflowWebsite(String id, String website, String iconImageUrl, String title, String description) {
 		this.id = id;
 		this.website = website;
 		this.iconImageUrl = iconImageUrl;
