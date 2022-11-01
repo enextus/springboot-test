@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.3</version>
+		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -17,37 +17,40 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>11</java.version> <!-- java version -->
+		<java.version>17</java.version> <!-- java version -->
 	</properties>
 
 	<dependencies>
-
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId> <!-- start of App, all optimisation of classes-->
+			<artifactId>spring-boot-starter</artifactId>
+			<version>2.7.5</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId> <!-- start with 2 bootloader, only for development -->
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>2.7.5</version> <!-- start with 2 bootloader, only for development -->
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId> <!-- unit test dependency -->
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>2.7.5</version> <!-- unit test dependency -->
 			<scope>test</scope>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId> <!-- tomcat for applet engine  -->
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.7.5</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-freemarker</artifactId> <!-- JSP is not so good, we will use freemarker for the view -->
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+			<version>2.7.5</version> <!-- JSP is not so good, we will use freemarker for the view -->
 		</dependency>
-
 	</dependencies>
 
 	<build>
